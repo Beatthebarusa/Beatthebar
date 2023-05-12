@@ -19,6 +19,16 @@
 		font-family: Arial;
 		color: #4C93FF;
 	}
+	
+	.box1{
+		width: 600px;
+		height: 600px;
+		margin: 50px 50px;
+		box-shadow: -1px 0 10px #000000;
+		justify-content: space-between;
+		/*background: #000;*/
+		border-radius: 25px;
+}
 
 	.box2{
 		width: 600px;
