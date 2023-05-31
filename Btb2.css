@@ -1,24 +1,39 @@
-
 img{
-	margin: 55px 55px 55px 55px;
+	margin: 0px 55px 5px 55px;
 }
 
-h1{
-}
 .box1{
 		margin-top: 75px;
 		margin-left: 25px;
-		width: 600px;
+		margin-right: 50px;
+		width: 300px;
 		height: 300px;
 		box-shadow: -1px 0 10px #000000;
 		/*background: #000;*/
 		border-radius: 25px;
 		align-content: center;
-		font-family: Arial;
+		font-family: Georgia;
+		float: left;
+}
+
+.box2{
+		margin-top: 75px;
+		margin-left: 25px;
+		width: 300px;
+		height: 300px;
+		box-shadow: -1px 0 10px #000000;
+		/*background: #000;*/
+		border-radius: 25px;
+		align-content: center;
+		font-family: Georgia;
 }
 body{
 	align-content: center;
 	justify-content: space-between;
+}
+a{
+ text-decoration: none;
+ color: black;
 }
 
 .topnav a {
@@ -28,6 +43,8 @@ body{
   padding: 14px 16px;
   text-decoration: none;
   font-size: 17px;
+  font-family: Verdana;
+
   }
 .topnav {
   background-color: #333;
