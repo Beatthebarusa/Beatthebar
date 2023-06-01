@@ -6,7 +6,8 @@ html{
   font-family: Georgia;
 }
 
-h1{
+h3{
+margin: 5px;
 }
 .box1{
 		margin-top: 75px;
