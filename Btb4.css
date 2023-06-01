@@ -35,12 +35,14 @@ a{
   padding: 14px 16px;
   text-decoration: none;
   font-size: 17px;
+  font-family: Verdana;
+
   }
 .topnav {
   background-color: #333;
   overflow: hidden;
 }
-.topnav a: hover {
+.topnav a:hover {
   background-color: #4C93FF;
   color: black;
 }
