@@ -3,7 +3,11 @@ position:relative;
 }
 
 img{
-	margin: 0px;
+	margin-top: 0px;
+}
+
+h3{
+	color: #000D7F;
 }
 
 
@@ -19,8 +23,9 @@ img{
 		align-content: center;
 		font-family: Georgia;
 		float: left;
+		background: #FFF9D0;
 }
-}
+
 
 .box2{
 		margin-top: 75px;
