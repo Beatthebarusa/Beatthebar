@@ -11,6 +11,7 @@ h3{
 }
 h2{
 	color: white;
+	margin: 15px;
 }
 
 .box1{
@@ -39,6 +40,7 @@ h2{
 		align-content: center;
 		font-family: Arial;
 		background: #02BE57;
+		text-align:justify;
 }
 body{
 	align-content: center;
