@@ -3,7 +3,7 @@ position:relative;
 }
 
 img{
-	margin-top: 0px;
+	margin-top: 05px;
 }
 
 h3{
@@ -35,8 +35,9 @@ h3{
 		/*background: #000;*/
 		border-radius: 25px;
 		align-content: center;
-		font-family: Georgia;
+		font-family: Arial;
 		background: #02BE57;
+		text-decoration-color: white;
 }
 body{
 	align-content: center;
