@@ -10,10 +10,14 @@ h3{
 	color: #000D7F;
 }
 h2{
-	color: white;
+	color: #FEE741;
 	margin: 15px;
 }
 
+h4{
+	margin-left: 8px;
+	margin-right: 8px;
+}
 p{
 	color: #FEE741;
 	float: right;
@@ -25,7 +29,7 @@ p{
 		margin-left: 50px;
 		margin-right: 15px;
 		width: 250px;
-		height: 300px;
+		height: 320px;
 		box-shadow: -1px 0 10px #000000;
 		/*background: #000;*/
 		border-radius: 25px;
@@ -33,21 +37,22 @@ p{
 		font-family: Georgia;
 		float: left;
 		background: #FFF9D0;
+		text-align: justify;
 }
 
 
 .box2{
 		margin-top: 75px;
-		width: 800px;
+		width: 825px;
 		height: 230px;
 		box-shadow: -1px 0 10px #000000;
 		/*background: #000;*/
 		border-radius: 25px;
 		align-content: center;
 		font-family: Arial;
-		background: #02BE57;
+		background: black;
 		text-align:justify;
-}
+	}
 body{
 	align-content: center;
 	justify-content: space-between;
