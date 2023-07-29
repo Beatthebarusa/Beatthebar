@@ -2,60 +2,108 @@
 position:relative;
 }
 
+.thumbnail {
+  position: relative;
+  z-index: 0;
+}
+
+.thumbnail:hover {
+  background-color: transparent;
+  z-index: 50;
+}
+
+.thumbnail span {
+  /*CSS for enlarged image*/
+  position: absolute;
+  background-color: lightyellow;
+  padding: 5px;
+  left: -900px;
+  border: 1px dashed gray;
+  visibility: hidden;
+  color: black;
+  text-decoration: none;
+}
+
+.thumbnail span img {
+  /*CSS for enlarged image*/
+  border-width: 0;
+}
+
+.thumbnail:hover span {
+  /*CSS for enlarged image on hover*/
+  visibility: visible;
+  top: 0;
+}
+
 img{
-	margin-top: 05px;
+margin-top: 05px;
 }
 
 h3{
-	color: #000D7F;
+color: #000D7F;
 }
 h2{
-	color: #FEE741;
-	margin: 15px;
+color: #FEE741;
+margin: 15px;
 }
 
 h4{
-	margin-left: 8px;
-	margin-right: 8px;
+margin-left: 8px;
+margin-right: 8px;
 }
 p{
-	color: #FEE741;
-	float: right;
-	margin-right: 10px;
+color: #FEE741;
+float: right;
+margin-right: 10px;
 }
+
 
 .box1{
-		margin-top: 75px;
-		margin-left: 50px;
-		margin-right: 15px;
-		width: 250px;
-		height: 320px;
-		box-shadow: -1px 0 10px #000000;
-		/*background: #000;*/
-		border-radius: 25px;
-		align-content: center;
-		font-family: Georgia;
-		float: left;
-		background: #FFF9D0;
-		text-align: justify;
+margin-top: 25px;
+margin-left: 35px;
+margin-right: 15px;
+width: 270px;
+height: 320px;
+border-radius: 25px;
+align-content: center;
+font-family: Georgia;
+float: left;
+background: #FFF9D0;
+text-align: justify;
 }
 
+.box1:hover{
+margin-top: 25px;
+margin-left: 25px;
+margin-right: 15px;
+width: 270px;
+height: 320px;
+box-shadow: -1px 0 10px #000000;
+/*background: #000;*/
+border-radius: 25px;
+align-content: center;
+font-family: Georgia;
+float: left;
+background: #FFF9D0;
+text-align: justify;
+ transform: scale(1.1);
+}
 
 .box2{
-		margin-top: 75px;
-		width: 825px;
-		height: 230px;
-		box-shadow: -1px 0 10px #000000;
-		/*background: #000;*/
-		border-radius: 25px;
-		align-content: center;
-		font-family: Arial;
-		background: black;
-		text-align:justify;
-	}
+margin-top: 75px;
+width: 825px;
+height: 230px;
+box-shadow: -1px 0 10px #000000;
+/*background: #000;*/
+border-radius: 25px;
+align-content: center;
+font-family: Arial;
+background: black;
+text-align:justify;
+}
 body{
-	align-content: center;
-	justify-content: space-between;
+align-content: center;
+justify-content: space-between;
 }
 a{
  text-decoration: none;
@@ -77,6 +125,14 @@ a{
   overflow: hidden;
 }
 .topnav a:hover {
+  background-color: #4C93FF;
+  color: black;
+}
+.topnav a.active {
+  background-color:  #4C93FF;
+  color: white;
+}
+
   background-color: #4C93FF;
   color: black;
 }
