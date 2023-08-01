@@ -86,7 +86,7 @@ p{
 .box1:hover{
 margin-top: 25px;
 margin-left: 25px;
-margin-right: 15px;
+margin-right: 0px;
 width: 270px;
 height: 320px;
 box-shadow: -1px 0 10px #000000;
@@ -253,7 +253,7 @@ p{
 
 .box1{
 		margin-top: 25px;
-		margin-left: 45px;
+		margin-left: 75px;
 		margin-right: px;
 		width: 250px;
 		height: 380px;
