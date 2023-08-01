@@ -47,7 +47,7 @@ h1{
 
 h3{
 	color: black;
-	font-size: 20;
+	font-size: 20px;
 }
 h2{
 	margin: 15px;
@@ -271,7 +271,7 @@ p{
 .box2{
 		margin-top: 75px;
 		width: 825px;
-		height: 315px;
+		height: 325px;
 		box-shadow: -1px 0 10px #000000;
 		/*background: #000;*/
 		border-radius: 25px;
