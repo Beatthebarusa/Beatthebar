@@ -36,7 +36,7 @@ position:relative;
 }
 
 video{
-	margin-top: 200px;
+	margin-top: 250px;
 }
 
 img{
@@ -219,7 +219,7 @@ video{
 
 video{
 	width: 600px;
-	margin-top: 250px;
+	margin-top: 200px;
 }
 img{
 	margin-top: 5px;
@@ -255,7 +255,7 @@ p{
 		margin-left: 25px;
 		margin-right: px;
 		width: 250px;
-		height: 365px;
+		height: 373px;
 		box-shadow: -1px 0 10px #000000;
 		/*background: #000;*/
 		border-radius: 25px;
