@@ -36,7 +36,7 @@ position:relative;
 }
 
 video{
-	margin-top: 40px;
+	margin-top: 250px;
 }
 
 img{
@@ -47,7 +47,6 @@ h1{
 
 h3{
 	color: black;
-	font-size: 17px;
 }
 h2{
 	margin: 15px;
@@ -58,7 +57,7 @@ h4{
 	margin-left: 8px;
 	margin-right: 8px;
 	margin-bottom: 15px;
-	font-size: 15px;
+	font-size: 17px;
 }
 p{
 	color: #FEE741;
@@ -86,7 +85,7 @@ p{
 .box1:hover{
 margin-top: 25px;
 margin-left: 25px;
-margin-right: 0px;
+margin-right: 15px;
 width: 270px;
 height: 320px;
 box-shadow: -1px 0 10px #000000;
@@ -194,6 +193,9 @@ video{
 	width: 700px;
 }
 }
+img{
+
+}
 
 @media screen and (max-width: 1280px) {
    .topnav a {
@@ -219,7 +221,7 @@ video{
 }
 
 video{
-	width: 600px;
+	width: 800px;
 	margin-top: 40px;
 }
 img{
@@ -230,18 +232,18 @@ h1{
 
 h3{
 	color: black;
-	font-size: 23px;
+	font-size: 27px;
 }
 h2{
 	margin: 15px;
-	font-size: 30px;
+	font-size: 35px;
 }
 
 h4{
 	margin-left: 8px;
 	margin-right: 8px;
 	margin-bottom: 15px;
-	font-size: 19px;
+	font-size: 21px;
 }
 p{
 	color: #FEE741;
@@ -253,10 +255,10 @@ p{
 
 .box1{
 		margin-top: 25px;
-		margin-left: 45px;
+		margin-left: 115px;
 		margin-right: px;
-		width: 250px;
-		height: 380px;
+		width: 300px;
+		height: 365px;
 		box-shadow: -1px 0 10px #000000;
 		/*background: #000;*/
 		border-radius: 25px;
@@ -270,8 +272,8 @@ p{
 
 .box2{
 		margin-top: 75px;
-		width: 825px;
-		height: 325px;
+		width: 930px;
+		height: 400px;
 		box-shadow: -1px 0 10px #000000;
 		/*background: #000;*/
 		border-radius: 25px;
