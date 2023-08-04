@@ -233,7 +233,7 @@ h1{
 
 h3{
 	color: black;
-	font-size: 30px;
+	font-size: 33px;
 }
 h2{
 	margin: 15px;
@@ -244,7 +244,7 @@ h4{
 	margin-left: 8px;
 	margin-right: 8px;
 	margin-bottom: 15px;
-	font-size: 24px;
+	font-size: 27px;
 }
 p{
 	color: #FEE741;
@@ -256,10 +256,10 @@ p{
 
 .box1{
 		margin-top: 25px;
-		margin-left: 80px;
+		margin-left: 50px;
 		margin-right: px;
-		width: 380px;
-		height: 390px;
+		width: 400px;
+		height: 425px;
 		box-shadow: -1px 0 10px #000000;
 		/*background: #000;*/
 		border-radius: 25px;
@@ -269,7 +269,6 @@ p{
 		background: #FFF9D0;
 		text-align: justify;
 }
-
 
 .box2{
 		margin-top: 75px;
