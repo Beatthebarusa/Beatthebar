@@ -229,7 +229,7 @@ marquee
 
 .box1 img{
 	height: 150px;
-	width: px;
+	width: 150px;
 }
 
 @media screen and (max-width: 1280px) {
