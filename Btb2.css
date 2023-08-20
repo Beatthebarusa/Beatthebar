@@ -42,7 +42,7 @@ body {
     position: relative;
 }
 footer {
-margin-top: 4950px;
+margin-top: 1450px;
     position: relative;
     background-color: #333;
     bottom:0;
@@ -327,14 +327,14 @@ text-align:justify;
 
 .box3{
 margin-top: 75px;
-width: 930px;
+width: 825px;
 height: 65px;
 box-shadow: -1px 0 10px #000000;
 background: ;
 border-radius: 25px;
 align-content: center;
 font-family: Spectral;
-font-size: 22px;
+font-size: 24px;
 }
 
 body{
@@ -405,7 +405,7 @@ height: 150px;
 }
 
 footer {
-margin-top: 14040px;
+margin-top: 3540px;
     position: relative;
     background-color: #333;
     bottom:0;
@@ -458,7 +458,7 @@ body {
     position: relative;
 }
 footer {
-margin-top: 3530px;
+margin-top: 1100px;
     position: relative;
     background-color: #333;
     bottom:0;
